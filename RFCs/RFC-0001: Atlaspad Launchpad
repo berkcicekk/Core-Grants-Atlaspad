@@ -1,0 +1,84 @@
+# RFC-0001: [Atlaspad Launchpad]
+
+- Amaç: [RFC'nin amacı ve kapsamının kısa açıklaması].
+- **Gönderen**:
+
+Name : Berk Çiçek 
+
+Mail : cckberk@gmail.com
+
+Discord : dr.drachenmeister
+
+- **Tarihinde** sunulmuştur:
+
+09.07.2024
+
+## Özet
+
+ Atlaspad, projelerin ön yatırım süreçlerini şeffaf, güvenli ve kullanıcı dostu bir şekilde yönetmek için tasarlanmış bir EVM tabanlı multichain launchpad platformudur. ZkPass entegrasyonu, kullanıcı doğrulama süreçlerini iyileştirerek platformun güvenliğini ve uyumluluğunu artıracaktır.
+
+## Giriş
+
+Atlaspad, kripto projelerinin erken aşama yatırımlarını yönetmek için yenilikçi bir platform sunar. Platformun başarılı olması için güvenli ve düzenlemelere uygun kullanıcı doğrulama süreçleri hayati öneme sahiptir. ZkPass, bu doğrulama süreçlerini güvenli, verimli ve kullanıcı dostu bir şekilde yönetmek için ideal bir çözüm sunar.
+
+- **RFC'nin Ele Aldığı Sorun veya Fırsat**: Mevcut KYC süreçleri karmaşık, zaman alıcı ve kullanıcı deneyimini olumsuz etkileyebiliyor. Bu da kimlik hırsızlığı ve dolandırıcılık risklerini artırırken, kullanıcı memnuniyetini azaltabiliyor.
+- **Mina Ekosistemi ile İlgisi ve Önemi**: ZkPass'in güvenli KYC çözümleri, Mina ekosisteminde güvenliğin ve kullanıcı doğrulamanın sağlanmasında önemli bir rol oynayabilir. Bu çözüm, Mina'nın güvenlik ve gizlilik hedefleriyle uyumlu olup, ekosistemin genel güvenliğini artırabilir.
+
+## Hedefler
+
+- Atlaspad platformuna ZkPass KYC entegrasyonunu sağlamak.
+- Kullanıcı doğrulama süreçlerini güvenli ve düzenlemelere uygun hale getirmek.
+- Kullanıcı deneyimini iyileştirmek.
+- Platformun düzenleyici gerekliliklere tam uyum sağlamasını desteklemek.
+
+## Motivasyon ve Gerekçe
+
+### Mevcut Zorlukların Analizi
+
+- **Kimlik Hırsızlığı ve Dolandırıcılık**: Dijital finansın büyümesiyle birlikte, kimlik hırsızlığı ve dolandırıcılık yaygın sorunlar haline gelmiş ve kurumlar ile bireyler için önemli mali kayıplara ve itibar kaybına neden olmuştur.
+- **Gizlilik Endişeleri**: Kullanıcılar, finansal kurumlar ve hizmetlerle etkileşime girerken kişisel ve finansal bilgiler gibi hassas verilerini koruma konusunda giderek daha fazla endişe duymaktadırlar.
+- **KYC & AML Uyumluluğu**: Finansal kurumlar, kullanıcı sürtüşmesini en aza indirirken ve gizliliği korurken Müşterini Tanı (KYC) ve Kara Para Aklamayı Önleme (AML) düzenlemelerine uyma zorluğuyla karşı karşıyadırlar.
+- **Birlikte Çalışabilirlik**: DeFi ve CeFi platformları arasındaki boşluğu doldurmak, çeşitli finansal uygulamalara sorunsuz bir şekilde entegre edilebilen uyumlu ve güvenli bir kimlik çözümü gerektirir.
+
+### İlgili Araştırma ve Verilerden Elde Edilen İçgörüler
+
+- Güvenli ve kullanıcı dostu KYC çözümlerine yönelik artan talep, platformların güvenliğini ve uyumluluğunu artırırken kullanıcı deneyimini de iyileştirebilir.
+- Sıfır Bilgi Kanıtları (ZKP) ve Çok Taraflı Hesaplama (MPC) teknolojileri, kullanıcı verilerinin gizliliğini korurken kimlik doğrulama sürecinin güvenliğini sağlar.
+
+### Hedefler veya Önceliklerle Bağlantılar
+
+- ZkPass entegrasyonu, Atlaspad'in güvenlik ve kullanıcı deneyimi hedeflerine ulaşmasına yardımcı olacaktır.
+- Kullanıcı sürtüşmesini en aza indirerek, platformumuzun kullanıcı dostu ve güvenilir olmasını sağlar.
+- ZkPass'in uyumluluk özellikleri, Atlaspad'in KYC ve AML düzenlemelerine tam uyum sağlamasına destek olur.
+
+## Senaryolar ve Kullanım Örnekleri
+
+### Örnek Senaryo 1: Güvenli KYC Süreci
+
+| Unsur | Açıklama |
+| --- | --- |
+| Açıklama | Kullanıcıların Atlaspad platformuna kayıt olurken kimlik doğrulama sürecinden geçmeleri gerekmektedir. Bu süreç, kimlik hırsızlığı ve dolandırıcılığı önlemek için kritik öneme sahiptir. |
+| Gereksinimler | ZkPass, kullanıcı kimlik bilgilerini doğrularken kişisel verilerin gizliliğini korumalı ve kullanıcı deneyimini olumsuz etkilememelidir. |
+| Beklenen Sonuç | Kullanıcılar, ZkPass aracılığıyla kimliklerini güvenli bir şekilde doğrularken, kişisel verileri korunmuş olur. Platform, güvenli ve düzenlemelere uygun bir KYC süreci sunar. |
+| Etki Analizi | ZkPass'in entegrasyonu, kimlik doğrulama süreçlerinin güvenliğini artırırken, kullanıcı memnuniyetini ve platformun itibarını olumlu yönde etkiler. |
+
+## Açık Konular ve Tartışma Noktaları
+
+- **Entegrasyon Süreci**: ZkPass'in Atlaspad platformuna entegrasyonunun teknik detayları ve olası zorlukları.
+- **Kullanıcı Eğitimi**: Kullanıcıların ZkPass kullanımı konusunda bilgilendirilmesi ve eğitilmesi için gerekli adımlar.
+- **Regülasyon Uyumu**: ZkPass'in farklı bölgelerdeki KYC ve AML düzenlemelerine uyumu ve bu konuda alınacak önlemler.
+- **Performans ve Ölçeklenebilirlik**: ZkPass'in yüksek kullanıcı taleplerine nasıl yanıt vereceği ve performansının nasıl sağlanacağı.
+
+## Sonuç
+
+Atlaspad platformuna ZkPass KYC entegrasyonunun gerekliliğini ve bu entegrasyonun nasıl gerçekleştirileceğini detaylandırmıştır. ZkPass'in güvenli, gizliliği koruyan ve kullanıcı dostu kimlik doğrulama çözümleri, Atlaspad'in güvenlik ve kullanıcı deneyimi hedeflerine ulaşmasına yardımcı olacaktır. Entegrasyonun başarılı bir şekilde gerçekleştirilmesi, kimlik hırsızlığı ve dolandırıcılık risklerini azaltırken, kullanıcı memnuniyetini artıracaktır.
+
+## Ekler
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2cc8a145-6112-4b57-9fd9-32f81185953a/8b99f656-4664-40b6-b2ea-9de186b6101c/Untitled.png)
+
+## Referanslar
+
+https://www.atlaspad.io/
+
+https://github.com/atlaspad
